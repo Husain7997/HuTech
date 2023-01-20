@@ -1,0 +1,65 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bennar-caption {
+    position: absolute;
+    width: 671px;
+    height: 336px;
+    left: 250px;
+    top: 250px;
+
+}
+
+
+/* footer style  */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 120px;
+    width: 1200px;
+    background-color: #000000;
+}
+
+.footer-icon {
+    width: 200px;
+    margin-left: 400px;
+}
+
+.footer-icon a {
+    padding: 10px;
+    color: rgba(69, 255, 252, 0.882);
+}
+
+small {
+    text-align: center;
+    margin-left: 410px;
+    color: #FFFFFF;
+}
+
+/* media queri */
+
+@media only screen and (max-device-width : 767px) {
+    .mobile {
+        display: none;
+    }
+
+    body {
+        overflow-x: none;
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    small,
+    .footer-icon {
+        margin: 0px;
+    }
+}
